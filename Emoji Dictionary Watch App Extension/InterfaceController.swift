@@ -16,20 +16,27 @@ class InterfaceController: WKInterfaceController {
     
     var emojis = ["🐶","🐤","🐹","🐥","🐔","🐒","🐣"]
     
+    
+    //"ViewDidLoad"
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
         
+        
+        //How many row?
+        //PS: set the row ---------returnTheReceiver.emojis.value -------EmojiRow is defined is defined in the IB's row identifier
         self.table.setNumberOfRows(self.emojis.count, withRowType: "EmojiRow");
         
+        
+        //Adding emojis to those rows
         for index in 0..<self.emojis.count {
             let theRow = self.table.rowControllerAtIndex(index) as! EmojiRow
             theRow.emojiRowLabel.setText(self.emojis[index]);
         }
     }
     
-    
+    //Pushing onto a new interface controller when a row is touched.
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
         self.pushControllerWithName("ZoomEmojiController", context: self.emojis[rowIndex])
     }

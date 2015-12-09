@@ -15,7 +15,7 @@
                                 <tableRow identifier="EmojiRow" id="JmI-u2-dK0" customClass="EmojiRow" customModule="Emoji_Dictionary_Watch_App_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="Wlc-j9-g8Y">
                                         <items>
-                                            <label alignment="left" text="👽" id="5c5-3q-HjE"/>
+                                            <label alignment="left" id="5c5-3q-HjE"/>
                                         </items>
                                     </group>
                                     <connections>
@@ -38,7 +38,7 @@
             <objects>
                 <controller identifier="ZoomEmojiController" id="dAA-8L-nVW" customClass="ZoomEmojiInterfaceController" customModule="Emoji_Dictionary_Watch_App_Extension">
                     <items>
-                        <label width="134" height="86.5" alignment="left" text="🎱" textAlignment="center" id="LIv-Zr-aSJ"/>
+                        <label width="134" height="86.5" alignment="left" textAlignment="center" id="LIv-Zr-aSJ"/>
                         <label width="133.5" alignment="left" text="Label" textAlignment="center" id="P7u-qU-uif"/>
                     </items>
                     <connections>

@@ -24,20 +24,21 @@ class ZoomEmojiInterfaceController: WKInterfaceController {
         let emoji = context as! String
         
         //----------------whatever the system fault for the apple watch is - set it to 30.
-        let font = UIFont.systemFontOfSize(100)
-        let specialString = NSAttributedString(string: emoji, attributes: [NSFontAttributeName:font])
+        let font = UIFont.systemFontOfSize(70)
+        
+        let specialString = NSAttributedString(string: emoji, attributes: [NSFontAttributeName: font])
         
         self.ZoomEmojiLabel.setAttributedText(specialString)
         
-        
-        
         var definition = "No Definition"
+        
+        self.ZoomEmojiLabel.setText(emoji)
         
         if emoji == "🐶" {
             definition = "Puppy"
         }
         
-        self.ZoomEmojiLabel.setText(emoji)
+        
     }
 
    
