@@ -38,7 +38,7 @@
             <objects>
                 <controller identifier="ZoomEmojiController" id="dAA-8L-nVW" customClass="ZoomEmojiInterfaceController" customModule="Emoji_Dictionary_Watch_App_Extension">
                     <items>
-                        <label alignment="left" text="Ken" id="LIv-Zr-aSJ"/>
+                        <label width="134" height="119.5" alignment="left" text="🎱" textAlignment="center" id="LIv-Zr-aSJ"/>
                     </items>
                     <connections>
                         <outlet property="ZoomEmojiLabel" destination="LIv-Zr-aSJ" id="gfs-Ee-UZt"/>
