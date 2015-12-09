@@ -14,7 +14,7 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet var table: WKInterfaceTable!
     
-    var emojis = ["🐶","😡","👻","🐤","🍎","🍰","⚽️"]
+    var emojis = ["🐶","🐤","🐹","🐥","🐔","🐒","🐣"]
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
