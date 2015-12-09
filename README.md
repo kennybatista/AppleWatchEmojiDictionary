@@ -4,4 +4,4 @@
 
 
 
-![alt tag](https://raw.github.com/kennybatista/iphone-emulator/master/kenOS-iphone-emulator-by-kenny-batista.png)
+![screenshot](https://github.com/kennybatista/AppleWatchEmojiDictionary/blob/master/screenshot.png)
