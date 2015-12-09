@@ -31,7 +31,7 @@ class InterfaceController: WKInterfaceController {
     
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
-        self.pushControllerWithName("ZoomEmojiController", context: nil)
+        self.pushControllerWithName("ZoomEmojiController", context: self.emojis[rowIndex])
     }
 
    

@@ -18,14 +18,12 @@ class ZoomEmojiInterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        
+        let emoji = context as! String
+        
+        self.ZoomEmojiLabel.setText(emoji)
     }
 
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
-        
-        // Configure interface objects here.
-        
-      
-    
+   
 
 }
