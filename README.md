@@ -4,7 +4,7 @@
 
 Intructions
 - Set Apple Watch + iPhone as running destinations
-- run
+- Command R to run
 
 
 ![screenshot](https://github.com/kennybatista/AppleWatchEmojiDictionary/blob/master/screenshot.png)
